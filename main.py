@@ -19,6 +19,11 @@ def quit():
             clear()
             break
 
+
+def death():
+    #infoga snygg forloop? RIP
+    pass
+
 while True:
     print("")
     print("\t\t       Den hemsökta skolan    ")
@@ -69,6 +74,14 @@ while True:
                             if answer.strip() == "1":
                                 while True:
                                     print("")
+                                    answer = input(">")
+                                    if answer.strip() == "1":
+                                        while True:
+                                            print("")
+                                    elif answer.strip() == "2":
+                                        pass
+                                    elif answer.lower().strip() == "q":
+                                        quit()
                             elif answer.strip() == "2":
                                 pass
                             elif answer.lower().strip() == "q":
@@ -91,3 +104,16 @@ while True:
 
     elif answer.lower().strip() == "n":
         quit()
+#Kopierungsunderlag:
+'''
+while True:
+    print("")
+    answer = input(">")
+    if answer.strip() == "1":
+        while True:
+            print("")
+    elif answer.strip() == "2":
+        pass
+    elif answer.lower().strip() == "q":
+        quit()
+'''
