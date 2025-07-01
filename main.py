@@ -69,7 +69,14 @@ while True:
                     answer = input(">")
                     if answer.strip() == "1":
                         while True:
-                            print("")
+                            print("Du går långsamt upp för den dammig gamla trappan, brädorna knarrar under dina fötter.")
+                            print("När du når toppen av trappan möts du av en lång hall med klassrum på båda sidor.")
+                            print("Du går in i det första klassrummet till vänster och möts av rader av tomma bänkar.")
+                            print("Du ser också att det finns en dörr som leder till nästa klassrum så du behöver inte gå")
+                            print("tillbaka ut i hallen om du inte vill. Plötsligt hör du steg i trappan utanför.\n")
+                            print("Vad gör du?\n")
+                            print("1. Jag gömmer dig i ett skåp")
+                            print("2. Jag flyr in i nästa klassrum")
                             answer = input(">")
                             if answer.strip() == "1":
                                 while True:
@@ -87,9 +94,70 @@ while True:
                             elif answer.lower().strip() == "q":
                                 quit()
                     elif answer.strip() == "2":
-                        pass
+                        while True:
+                            print("Du vandrar längs med korridoren och betraktar lektionssalarna som radar upp sig på")
+                            print("din vänstra sida. Några dörrar är stängda medan andra står på glänt, genom springan")
+                            print("ekar salarna tomma med bord och bänkar som vittnar om en tid då skolan var full av")
+                            print("liv och rörelse. Längst bort i korridoren finns en dörr som leder ner till källaren.")
+                            print("Plötsligt hör du ett kväkande ljud från Biologi-salen.\n")
+                            print("Vad gör du?\n")
+                            print("1. Jag flyr ner i källaren.")
+                            print("2. Jag går in i Biologisalen för att undersöka.")
+                            answer = input(">")
+                            if answer.strip() == "1":
+                                while True:
+                                    clear()
+                                    print("I källaren möts du av ett totalt mörker och det är oklart om du känner dig säkrare")
+                                    print("här. Snarare känner du dig dum för det var ju läskigare här nere, du lyser dig fram")
+                                    print("med mobilens sken och du hittar en dörr märkt 'Pannrum' och en dörr märkt 'Städskrubb'.")
+                                    print("Du hör fotsteg på väg nerför trappan. Hjärtat bultar och du måste gömma dig.\n")
+                                    print("Vilket rum väljer du?\n")
+                                    print("1. Pannrummet")
+                                    print("2. Städskrubben")
+                                    answer = input(">")
+                                    if answer.strip() == "1":
+                                        clear()
+                                        print("Du forcerar den tunga dörren till pannrummet och springer in medan fotstegen utanför")
+                                        print("blir allt högre. I brist på gömställen kryper du in i den gamla pannan för att gömma")
+                                        print("dig, du stänger till luckan och kryper ihop i mörkret. Utanför hör du hur fotstegen")
+                                        print("kommer in i pannrummet, men också hur de går ut från rummet. Du känner lättnad över")
+                                        print("att ha klarat dig och försöker nu att krypa ut ur pannan igen men luckan har fastnat!\n")
+                                        print("Du kämpar för ditt liv men syret tar snart slut precis som ditt liv. Och fastän ditt")
+                                        print("liv är slut kommer du snart att bli känd! För när du blir hittad går du viral på TikTok ")
+                                        print("som 'Stupid kid crawled in boiler and died a horrible death'. En liten tröst iaf!")
+                                        input(">")
+                                        clear()
+                                        break
+                                    elif answer.strip() == "2":
+                                        clear()
+                                        print("Du gömmer dig bakom en hylla i förrådet och du hör hur fotstegen går in i pannrummet.")
+                                        print("Sedan går de ut och fortsätter bort, djupare in i källaren. Du drar en lättnadens suck")
+                                        print("och tar ett kliv mot dörren men i mörkret råkar du välta hyllan så att du får den över")
+                                        print("dig. Olyckligtvis faller du med huvudet först ner i skurhinken.\n")
+                                        print("Fastklämd drunknar du sakta i det sura vattnet, dina sista tankar blir på dina tre")
+                                        print("TikTok-filföljare.")
+                                        input(">")
+                                        clear()
+                                        break
+                                    elif answer.lower().strip() == "q":
+                                        quit()
+                                    
+                            elif answer.strip() == "2":
+                                print("Du kliver in i salen men möts av en kväljande amfibiestank. När du tittar närmare")
+                                print("på akvariet i hörnet ser du att klassens experiment på de lokala paddorna har blivit")
+                                print("kvarglömda då skolan lades ner. När du ser det krossade glaset och de gigantiska")
+                                print("paddformade fotspåren på golvet inser du att något har muterat utom kontroll i den")
+                                print("isolerade miljön.\n")
+                                print("När du känner en slemmig hand med simhud läggas på din axel förstår du att din tid är kommen.")
+                                input(">")
+                                clear()
+                                break
+                            elif answer.lower().strip() == "q":
+                                quit()
+                            break #testar att stoppa loopdöden här
                     elif answer.lower().strip() == "q":
                         quit()
+                    break #testar att stoppa även här
 
             elif answer.strip() == "2":
                 print("Du vänder tvärt på klacken och tänker 'F dis shiiet'...")
