@@ -54,7 +54,7 @@ i ett råttbett.
 1.1.1.2
 Du flyr in i nästa klassrum. Rakt fram har du en dörr in till ytterligare nästa klassrum
 och till höger har du en dörr som leder ut mot hallen igen. Bakom dig kan du höra hur 
-fotstegen kommer in i rummet och går ett varv och fortsätter sedan rakt mot dig.
+fotstegen kommer in i rummet. Gå ett varv för att sedan fortsätta rakt mot dig.
 
 Vad gör du?
 
@@ -118,7 +118,8 @@ Slut!
 
 1.1.1.2.2.2 Du tittar ut genom fönstret
 Du tittar ut genom fönstret och nedanför dig är buskarna och huvudentrén till skolan där 
-du gick in tidigare. Det är samma buskar som prasslade innan, och eftersom du känner dig trygg på andra våningen fortsätter du titta ner för att försöka se vad det är.
+du nyss gick in. Det är samma buskar som prasslade innan, och eftersom du känner dig 
+trygg på andra våningen fortsätter du titta ner för att försöka se vad det är.
 
 Plötsligt hoppar en stor varulv upp och biter av dig huvudet.
 
