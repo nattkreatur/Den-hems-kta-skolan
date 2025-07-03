@@ -21,14 +21,36 @@ def quit():
             break
 
 def epilog():
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
-    print("")
+    x = "Grattis du överlevde den hemsökta skolan!"
+    y = "Slut!"
+    print()
+    for i in x:
+        sys.stdout.write(i)
+        sys.stdout.flush()
+        time.sleep(0.2)
+    print()
+    time.sleep(0.75)
+    print("\nTyvärr var det dåligt ljus och du skakade av rädsla när du filmade spöket så filmen blev")
+    time.sleep(0.75)
+    print("av rätt låg kvalitet. Du fick tre nya följare och toppkommentaren under videon blev")
+    time.sleep(0.75)
+    print("'Why do these idiots Always film shit like this with a f-in toaster?'. Du känner dig")
+    time.sleep(0.75)
+    print("aningen misslyckad. En kommentar längre ner är mer positiv och tycker att du har gjort")
+    time.sleep(0.75)
+    print("ett bra jobb. Personen vill gärna att ni träffas imorgon igen vid den hemsökta skolan för")
+    time.sleep(0.75)
+    print("att utforska den tillsammans. Du tycker att personen verkar trevlig och seriös då personen har")
+    time.sleep(0.75)
+    print("en mycket verklighetstrogen varulv som profilbild.\n")
+    time.sleep(0.75)
+    print()
+    for i in y:
+        sys.stdout.write(i)
+        sys.stdout.flush()
+        time.sleep(0.5)
+    time.sleep(0.2)
+    input("\n\nTryck <Enter> för att komma tillbaka starten.")
 
 def death():
     print("")
@@ -37,7 +59,7 @@ def death():
         sys.stdout.write(i) #skriver ut till terminalen utan att göra det på en ny rad(till skillnad från print())
         sys.stdout.flush() #tömmer buffert/cache för att output inte ska bli "ryckig", har förmodligen ingen effekt 
                             #på de flesta moderna terminalfönster då de "flushar" problemfritt på egen hand
-        time.sleep(0.4) #pausar programmet i 0.4sec efter varje loop
+        time.sleep(0.3) #pausar programmet i 0.4sec efter varje loop
     print(r"")
     print(r"        ____________   " )      
     print(r"       /            \  " )
@@ -124,6 +146,7 @@ while True:
                                     print("Samtidigt som du öppnar luckan för att krypa ut känner du en smärta i vaden. Du har")
                                     print("blivit biten av en råtta i skåpet. Beklämd över att det nu har blivit hål i dina nya")
                                     print("byxor går du hem och skiter i den här hemsökta jädra skolan.\n")
+                                    input()
                                     print("Några veckor senare dör du i sviterna av en långdragen infektion som hade sitt ursprung")
                                     print("i ett råttbett.")
                                     input(">")
@@ -144,6 +167,7 @@ while True:
                                             print("På tavlan står det 'Datorteknik'. En kyla sänker sig snabbt över rummet och en skepnad")
                                             print("uppenbarar sig bakom lärarens skrivbord. Det är vålnaden av läraren i Datorteknik. Hon")
                                             print("spänner ögonen djupt i dig och säger 'Det blir F'.\n")
+                                            input()
                                             print("Du avlider av skam.")
                                             input(">")
                                             death()
@@ -173,6 +197,8 @@ while True:
                                                             print("in i köket och startar ugnen. Medan du grillas till döds hinner du reflektera över hur")
                                                             print("dumt det var att du inte visste att elen var påslagen i byggnaden. Isåfall hade du ju")
                                                             print("bara kunnat tända taklamporna istället för att fjanta runt i mörkret.")
+                                                            input()
+                                                            print("Dina sista tankar blir på MAX-hamburgare av någon anledning.")
                                                             input(">")
                                                             death()
                                                         elif answer.strip() == "2":
@@ -180,7 +206,7 @@ while True:
                                                             print("Du beväpnar dig med en stekspade och inväntar sammandrabbningen. Dörren flängs upp och")
                                                             print("in springer ett spöke som ser ut som en gammal mattant, hon springer raka vägen till")
                                                             print("ugnen och sätter på den och fortsätter sedan genom dig bort mot skafferiet. Det visar")
-                                                            print("sig vara en vålnad som rör sig i ett mönster och den verkar inte alls kunna se dig.")
+                                                            print("sig vara en vålnad som rör sig i ett mönster och hon verkar inte alls kunna se dig.")
                                                             print("Ett minne från någons liv som spelas upp om och om igen som en gammal trasig skiva.")
                                                             print("Lättad men fascinerad dokumenterar du händelsen på TikTok och det enda du kan tänka på")
                                                             print("är hur många likes du kommer att få.")
@@ -198,6 +224,7 @@ while True:
                                                     print("du nyss gick in. Det är samma buskar som prasslade innan, och eftersom du känner dig ")
                                                     print("trygg på andra våningen fortsätter du titta ner för att försöka se vad det är.\n")
                                                     print("Plötsligt hoppar en stor varulv upp och biter av dig huvudet.\n")
+                                                    input()
                                                     print("Det sista du hinner tänka innan du dör är 'röva'.")
                                                     input(">")
                                                     death()
@@ -249,6 +276,7 @@ while True:
                                             print("dig, du stänger till luckan och kryper ihop i mörkret. Utanför hör du hur fotstegen")
                                             print("kommer in i pannrummet, men också hur de går ut från rummet. Du känner lättnad över")
                                             print("att ha klarat dig och försöker nu att krypa ut ur pannan igen men luckan har fastnat!\n")
+                                            input()
                                             print("Du kämpar för ditt liv men syret tar snart slut precis som ditt liv. Och fastän ditt")
                                             print("liv är slut kommer du snart att bli känd! För när du blir hittad går du viral på TikTok ")
                                             print("som 'Stupid kid crawled in boiler and died a horrible death'. En liten tröst iaf!")
@@ -260,7 +288,7 @@ while True:
                                             print("Sedan går de ut och fortsätter bort, djupare in i källaren. Du drar en lättnadens suck")
                                             print("och tar ett kliv mot dörren men i mörkret råkar du välta hyllan så att du får den över")
                                             print("dig. Olyckligtvis faller du med huvudet först ner i skurhinken.\n")
-                                            input(">")
+                                            input()
                                             print("Fastklämd drunknar du sakta i det sura vattnet, dina sista tankar blir på dina tre")
                                             print("TikTok-följare.")
                                             input(">")
@@ -279,6 +307,7 @@ while True:
                                     print("kvarglömda då skolan lades ner. När du ser det krossade glaset och de gigantiska")
                                     print("paddformade fotspåren på golvet inser du att något har muterat utom kontroll i den")
                                     print("isolerade miljön.\n")
+                                    input()
                                     print("När du känner en slemmig hand med simhud läggas på din axel förstår du att din tid är kommen.")
                                     input(">")
                                     death()
@@ -300,6 +329,7 @@ while True:
                     print("Du vänder tvärt på klacken och tänker 'F dis shiiet'...")
                     print("Men du hinner knappt gå mer än två meter innan det hoppar fram en")
                     print("stor varulv och äter upp dig.\n")
+                    input()
                     print("Du hann inte ens trycka på record...")
                     input(">")
                     death()
